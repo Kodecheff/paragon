@@ -63,7 +63,7 @@ header li{
   display: inline-block;
   width: 310px;
   height: 310px;
-  padding: 5px;
+  padding: 10px;
 }
 
 /* Team */
@@ -89,7 +89,7 @@ header li{
 }
 /* Footer */
 footer{
-  padding: 50px 0px;
+  padding: 50px 60px;
   background: black;
   color: white;
 }
@@ -98,6 +98,10 @@ footer ul{
 }
 footer .fa{
   margin-right: 5px;
+  padding: 15px;
+}
+footer .social-link{
+  text-align: right;
 }
 
 /*=============================================MEDIA QUERIES===================*/
