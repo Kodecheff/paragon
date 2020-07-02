@@ -1,0 +1,72 @@
+body {
+    
+}
+
+header{
+  padding: 10px 0px;
+  background: black;
+  color: white;
+}
+
+.menu-bar{
+  display: none;
+}
+
+header ul{
+  list-style-type: none;
+}
+header li{
+  display: inline-block;
+  margin-right: 5px;
+}
+.banner p{
+  background: grey;
+  padding: 5px 10px;
+  color: white;
+}
+
+/* Banner */
+.banner{
+  padding: 150px 0px;
+  background: url('img/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Portfolio */
+.portfolio img{
+  display: inline-block;
+}
+
+/* Process */
+.process ul{
+  list-style: Square;
+}
+/* Footer */
+footer{
+  text-align:center;
+  padding: 50px 0px;
+  background: black;
+  color: white;
+}
+footer ul{
+  list-style: none;
+}
+footer .fa{
+  margin-right: 5px;
+}
+
+/*=============================================MEDIA QUERIES===================*/
+@media screen and (max-width: 780px) {
+  header{
+    padding: 5px 0px;
+  }
+  header .dropdown-content ul{
+  display: none;
+}
+
+footer{
+  padding: 35px 0px;
+}
+}
