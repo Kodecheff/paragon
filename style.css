@@ -1,5 +1,5 @@
 body {
-    
+  font-family: 'Oswald', sans-serif;
 }
 
 header{
@@ -8,7 +8,7 @@ header{
   color: white;
 }
 
-.menu-bar{
+.menu-icon{
   display: none;
 }
 
@@ -21,8 +21,9 @@ header li{
 }
 .banner p{
   background: grey;
-  padding: 5px 10px;
+  padding: 15px 10px;
   color: white;
+  text-align: center;
 }
 
 /* Banner */
@@ -34,14 +35,52 @@ header li{
   background-position: center;
 }
 
+.feature{
+  padding-top: 150px;
+}
+.feature button{
+  background: black;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+}
+
 /* Portfolio */
+.portfolio {
+  padding: 50px 0px;
+}
+.portfolio h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
 .portfolio img{
   display: inline-block;
+  width: 234px;
+  height: 234px;
+  padding: 3px;
+}
+
+/* Team */
+.team{
+  padding: 50px 0px;
+}
+.team h2{
+  text-align:center;
 }
 
 /* Process */
 .process ul{
   list-style: Square;
+}
+.process h2{
+  visibility: hidden;
+}
+.process .writeup{
+  padding: 100px 40px;
+}
+.process .writeup h2{
+  visibility: visible;
 }
 /* Footer */
 footer{
@@ -62,11 +101,59 @@ footer .fa{
   header{
     padding: 5px 0px;
   }
-  header .dropdown-content ul{
-  display: none;
+  .feature{
+    padding-top: 50px;
+  }
+  
+.dropdown{
+  position: relative;
+  display: inline-block;
 }
 
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0;
+  right: 0;
+  color: black;
+}
+.drop-content li{
+  display: block;
+  padding: 10px;
+}
+
+  .menu-icon{
+    display: block;
+  }
+  .dropdown:hover .drop-content{
+    display: block;
+  }
+  .drop-content li:hover{
+    background: grey;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  .team div{
+    margin-top: 25px;
+  }
+  .process .writeup{
+    padding: 0px;
+  }
+  .process h2{
+    visibility: visible;
+    text-align: center;
+  }
+  .process .writeup h2{
+    visibility: hidden;
+  }
+  
 footer{
   padding: 35px 0px;
+  text-align: justify;
 }
 }
